@@ -28,7 +28,6 @@ Initial trials demonstrate a quantifiable energy gap between natural syntax and 
   <img src="figure1.png" alt="Energy Cost Analysis Graph" width="80%">
   <br>
   <em>Figure 1: Comparative analysis showing 'The Cat Sat' (Natural) requires 20% less biomechanical energy per transition than 'Pack Cat' (Unnatural).<br>
-  Natural Sentence ("The Cat Sat"): 6.83 Energy Units/Step; Awkward Phrase ("Pack Cat"): 8.60 Energy Units/Step.</em>
 </p>
 
 * **Natural Sentence ("The Cat Sat"):** 6.83 Energy Units/Step
