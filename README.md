@@ -8,7 +8,7 @@
 ## 1. Abstract
 Current Natural Language Processing (NLP) models, including LLMs, largely rely on probabilistic mechanisms (Markov chains, Transformer attention) to predict token transitions. These models often treat language as an abstract sequence of symbols, ignoring the physical hardware that produces it: the human vocal tract.
 
-This project proposes a **Biomechanical Determinism** hypothesis: *Language evolution is driven by the minimization of caloric and biomechanical effort.* By mapping phonemes to physical coordinates (Place, Aperture, Voicing), we can calculate the "Energy Cost" of a word transition, and as a result, predict the 'transition phase' of words.
+This project proposes a **Biomechanical Determinism** hypothesis: *Language evolution is driven by the minimization of caloric and biomechanical effort.* By mapping phonemes to physical coordinates (Place, Aperture, Voicing), we can calculate the "Energy Cost" of a word transition and predict the 'transition phase' of words.
 
 ## 2. The Hypothesis
 > **The Principle of Least Biomechanical Effort:**
@@ -24,11 +24,12 @@ Using Python and NumPy, we calculated the Euclidean Distance (Energy Cost) betwe
 
 ## 4. Results
 Initial trials demonstrate a quantifiable energy gap between natural syntax and unnatural phrasing.
-
-![Energy Cost Analysis](figure1.png)
-
-*Figure 1: Comparative analysis showing 'The Cat Sat' (Natural) requires 20% 
-less biomechanical energy per transition than 'Pack Cat' (Unnatural).*
+<p align="center">
+  <img src="figure1.png" alt="Energy Cost Analysis Graph" width="80%">
+  <br>
+  <em>Figure 1: Comparative analysis showing 'The Cat Sat' (Natural) requires 20% less biomechanical energy per transition than 'Pack Cat' (Unnatural).<br>
+  Natural Sentence ("The Cat Sat"): 6.83 Energy Units/Step; Awkward Phrase ("Pack Cat"): 8.60 Energy Units/Step.</em>
+</p>
 
 * **Natural Sentence ("The Cat Sat"):** 6.83 Energy Units/Step
 * **Awkward Phrase ("Pack Cat"):** 8.60 Energy Units/Step
