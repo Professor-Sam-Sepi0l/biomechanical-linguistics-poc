@@ -25,9 +25,8 @@ Using Python and NumPy, we calculated the Euclidean Distance (Energy Cost) betwe
 ## 4. Results
 Initial trials demonstrate a quantifiable energy gap between natural syntax and unnatural phrasing.
 
-
-
 ![Energy Cost Analysis](figure1.png)
+
 *Figure 1: Comparative analysis showing 'The Cat Sat' (Natural) requires 20% less biomechanical energy per transition than 'Pack Cat' (Unnatural).*
 
 * **Natural Sentence ("The Cat Sat"):** 6.83 Energy Units/Step
