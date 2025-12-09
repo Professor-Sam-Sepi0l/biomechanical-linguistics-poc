@@ -8,7 +8,7 @@
 ## 1. Abstract
 Current Natural Language Processing (NLP) models, including LLMs, largely rely on probabilistic mechanisms (Markov chains, Transformer attention) to predict token transitions. These models often treat language as an abstract sequence of symbols, ignoring the physical hardware that produces it: the human vocal tract.
 
-This project proposes a **Biomechanical Determinism** hypothesis: *Language evolution is driven by the minimization of caloric and biomechanical effort.* By mapping phonemes to physical coordinates (Place, Aperture, Voicing), we can calculate the "Energy Cost" of a word transition.
+This project proposes a **Biomechanical Determinism** hypothesis: *Language evolution is driven by the minimization of caloric and biomechanical effort.* By mapping phonemes to physical coordinates (Place, Aperture, Voicing), we can calculate the "Energy Cost" of a word transition, and as a result, predict the 'transition phase' of words.
 
 ## 2. The Hypothesis
 > **The Principle of Least Biomechanical Effort:**
