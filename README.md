@@ -34,7 +34,7 @@ Initial trials demonstrate a quantifiable energy gap between natural syntax and 
 * **Awkward Phrase ("Pack Cat"):** 8.60 Energy Units/Step
 
 ## 5. Future Implications
-This suggests that Next-Token Prediction accuracy could be improved by weighting tokens not just by semantic probability, but by **Biomechanical Adjacency**. A "Physics of Language" layer could help models distinguish between grammatically possible and biologically probable sequences, potentially leading to a novel methodology for predicting transition phases. 
+This suggests that Next-Token Prediction accuracy could be improved by weighting tokens not just by semantic probability, but by **Biomechanical Adjacency**. A "Physics of Language" layer could help models distinguish between grammatically possible and biologically probable sequences, potentially leading to a novel methodology for predicting word transition phases. 
 
 ## 6. Usage
 ```python
