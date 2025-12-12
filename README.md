@@ -6,9 +6,9 @@
 **Date:** December 2025
 
 ## 1. Abstract
-Current Natural Language Processing (NLP) models, including LLMs, largely rely on probabilistic mechanisms (Markov chains, Transformer attention) to predict token transitions. These models often treat language as an abstract sequence of symbols, ignoring the physical hardware that produces it: the human vocal tract.
+Current Natural Language Processing (NLP) models, including LLMs, largely rely on probabilistic mechanisms (Markov chains, Transformer attention) to predict token transitions. These models often treat language as an abstract sequence of symbols, ignoring the physical hardware that produces it: the human vocal tract. By applying a simple python script to a set af basic math problems, we suggest a call for a more pragmatic methodology.
 
-This project proposes a **Biomechanical Determinism** hypothesis: *Language evolution is driven by the minimization of caloric and biomechanical effort.* By mapping phonemes to physical coordinates (Place, Aperture, Voicing), we can calculate the "Energy Cost" of a word transition and predict the 'transition phase' of words.
+This project proposes a **Biomechanical Determinism** hypothesis: *Language evolution is driven by the minimization of caloric and biomechanical effort.* By mapping phonemes to physical coordinates (Place, Aperture, Voicing), we can calculate the "Energy Cost" of a word transition.
 
 ## 2. The Hypothesis
 > **The Principle of Least Biomechanical Effort:**
@@ -33,8 +33,8 @@ Initial trials demonstrate a quantifiable energy gap between natural syntax and 
 * **Natural Sentence ("The Cat Sat"):** 6.83 Energy Units/Step
 * **Awkward Phrase ("Pack Cat"):** 8.60 Energy Units/Step
 
-## 5. Implications for AI
-This suggests that Next-Token Prediction accuracy could be improved by weighting tokens not just by semantic probability, but by **Biomechanical Adjacency**. A "Physics of Language" layer could help models distinguish between grammatically possible and biologically probable sequences.
+## 5. Future Implications
+This suggests that Next-Token Prediction accuracy could be improved by weighting tokens not just by semantic probability, but by **Biomechanical Adjacency**. A "Physics of Language" layer could help models distinguish between grammatically possible and biologically probable sequences, potentially leading to a novel methodology for predicting transition phases. 
 
 ## 6. Usage
 ```python
